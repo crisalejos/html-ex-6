@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Exercice numero 6 - HTML cours de developper</title>
+  
+</head>
+<body>
+ 
+    <form>
+        <fieldset>
+          <legend>Votre identité</legend>
+          <ol>
+            <li>
+                <label for="name">
+                    Nom : <input type="text" id="name" name="user_name" value="Nom">
+                  </label>
+            </li>
+            <li>
+                <label for="prenom">
+                    Prénom : <input type="text" id="prenom" name="user_prenom" value="Prénom">
+                  </label>
+            </li>
+            <li>
+                <label for="mail">
+                    Adresse mail : <input type="text" id="mail" name="user_mail" value="Adresse mail">
+                  </label>
+            </li>
+        </ol>
+        </fieldset>
+        <fieldset>
+            <legend>Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <label for="adresse">
+                        Adresse : <textarea id="adresse" name="user_adresse" rows="4" cols="20">
+                             
+                            </textarea>
+                      </label>
+                </li>
+                <li>
+                    <label for="codepostal">
+                        Code postal : <input type="text" id="codepostal" name="user_codepostal" value="Code postal">
+                      </label>
+                </li>
+                <li>
+                    <label for="Ville">
+                        Ville : <input type="text" id="ville" name="user_ville" value="Ville">
+                      </label>
+                </li>
+            </ol>
+          </fieldset>
+          <fieldset>
+            <legend>Informations de règlement</legend>
+            <ol>
+                <li>
+                    <ul>
+                        <li><input type="radio" id="visa" name="user_visa" value="visa">
+                            <label for="visa"> VISA</label>
+                        </li>
+                        <li><input type="radio" id="mastercard" name="user_astercard" value="Mastercard">
+                            <label for="mastercard"> Mastercard</label>
+                        </li>                        
+                    </ul>
+                    
+
+                </li>
+                <li>
+                    <label for="num_carte">
+                        Numéro de carte : <input type="text" id="num_carte" name="user_num_carte" value="Numéro de carte">
+                      </label>
+                </li>
+                <li>
+                    <label for="num_code">
+                        Code de sécurité : <input type="text" id="num_code" name="user_code" value="Code de sécurité">
+                      </label>
+                </li>
+                <li>
+                    <label for="num_titulaire">
+                        Nom du titulaire : <input type="text" id="nom_titulaire" name="user_nom_tiutlaire" value="Nom du titulaire">
+                      </label>
+                </li>
+            </ol>
+          </fieldset>
+
+          <input type="submit" value="J'achète!">
+
+      </form>
+    
+
+
+</body>
+</html>
