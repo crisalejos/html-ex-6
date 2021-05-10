@@ -13,17 +13,17 @@
           <ol>
             <li>
                 <label for="name">
-                    Nom : <input type="text" id="name" name="user_name" value="Nom">
+                    Nom : <input type="text" id="name" name="user_name"  placeholder="Nom">
                   </label>
             </li>
             <li>
-                <label for="prenom">
-                    Prénom : <input type="text" id="prenom" name="user_prenom" value="Prénom">
+                <label for="firstname">
+                    Prénom : <input type="text" id="firstname" name="firstname"  placeholder="Prenom" >
                   </label>
             </li>
             <li>
                 <label for="mail">
-                    Adresse mail : <input type="text" id="mail" name="user_mail" value="Adresse mail">
+                    Adresse mail : <input type="mail" id="mail" name="user_mail" placeholder="Adresse mail" >
                   </label>
             </li>
         </ol>
@@ -32,20 +32,18 @@
             <legend>Adresse de livraison</legend>
             <ol>
                 <li>
-                    <label for="adresse">
-                        Adresse : <textarea id="adresse" name="user_adresse" rows="4" cols="20">
-                             
-                            </textarea>
+                    <label for="address">
+                        Adresse : <textarea id="address" name="user_address" rows="4" cols="20"></textarea>
                       </label>
                 </li>
                 <li>
-                    <label for="codepostal">
-                        Code postal : <input type="text" id="codepostal" name="user_codepostal" value="Code postal">
+                    <label for="postalCode"> <!-- on ajoute le type text  -->
+                        Code postal : <input type="text" id="postalCode" name="postalCode" placeholder="Code postal" >
                       </label>
                 </li>
                 <li>
                     <label for="Ville">
-                        Ville : <input type="text" id="ville" name="user_ville" value="Ville">
+                        Ville : <input type="text" id="ville" name="user_ville" placeholder="Ville">
                       </label>
                 </li>
             </ol>
@@ -55,30 +53,28 @@
             <ol>
                 <li>Type de carte bancaire :
                     <ul>
-                        <li><input type="radio" id="visa" name="user_visa" value="visa">
-                            <label for="visa"> VISA</label>
+                        <li><input type="radio" id="visa" name="cardType" placeholder="visa">
+                            <label for="cardType"> VISA</label>
                         </li>
-                        <li><input type="radio" id="mastercard" name="user_astercard" value="Mastercard">
-                            <label for="mastercard"> Mastercard</label>
+                        <li><input type="radio" id="mastercard" name="cardType" placeholder="Mastercard">
+                            <label for="cardType"> Mastercard</label>
                         </li>                        
                     </ul>
-                    
-
                 </li>
                 <li>
                   
-                    <label for="num_carte">
-                        Numéro de carte : <input type="text" id="num_carte" name="user_num_carte" value="Numéro de carte">
+                    <label for="cardNumber">
+                        Numéro de carte : <input type="text" id="cardNumber" name="cardNumber" placeholder="Numéro de carte">
                       </label>
                 </li>
                 <li>
-                    <label for="num_code">
-                        Code de sécurité : <input type="text" id="num_code" name="user_code" value="Code de sécurité">
+                    <label for="security">
+                        Code de sécurité : <input type="number" id="security" name="security" placeholder="Code de sécurité">
                       </label>
                 </li>
                 <li>
                     <label for="num_titulaire">
-                        Nom du titulaire : <input type="text" id="nom_titulaire" name="user_nom_tiutlaire" value="Nom du titulaire">
+                        Nom du titulaire : <input type="text" id="nom_titulaire" name="nom_titulaire" placeholder="Nom du titulaire">
                       </label>
                 </li>
             </ol>
